@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.task-form button {
+  padding: 8px 12px;
+  background-color: #52ca34;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #00b336;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.task-list li {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end ;
+  align-items: center;
+  background-color: #c1ffb1;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.task-list li button {
+  background-color: transparent;  
+  padding: 4px 8px;
+  color: #c9636d;
+  border: none;
+  cursor: pointer;
+  margin-left: 6rem;
+}
+
+.task-list li button:hover {
+  color: #c82333;
+}
